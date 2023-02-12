@@ -1,0 +1,238 @@
+html, body {
+    margin: 0px;
+    font-family: sans-serif;
+    height: 100vh;
+    width: 100vw;
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 100%;
+    background-color: gray;
+    margin: 0px;
+}
+
+#left-section {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 100%;
+    width: 22%;
+    background-color: #fcfcfc;
+    margin: 0px;
+}
+
+#logo {
+    max-height: 15vh;
+    max-width: 12vw;
+    height: auto;
+    width: auto;
+    margin: 0 auto 0 auto;
+
+}
+
+#socials {
+    display: flex;
+    margin-top: auto;
+    height: 10vh;
+    justify-content: space-evenly;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2.5rem;
+    width: 2.5rem;
+    background-color: #2daafc;
+    color: #fcfcfc;
+    font-size: x-large;
+    border-radius: 50%;
+}
+
+#pop-up-section {
+    display: flex;
+    flex-wrap: wrap;
+    height: 60vh;
+    width: 32rem;
+    transform: translate(7vw, -80vh);
+    background-color: #ffffff;
+    border-radius: 3%;
+    box-shadow: 0px 0px 50px #48484845;
+    justify-content: center;
+}
+
+#pop-up-header {
+    display: flex;
+    width: 100%;
+    height: 5rem;
+}
+
+.pop-up-header-options {
+    width: 25%;
+    border-bottom: 2px solid #f0f0f0;
+    text-align: center;
+    color: #b3b3b3;
+    padding: 1.4rem;
+}
+
+.pop-up-header-options > p {
+    margin: 0;
+}
+
+.pop-up-header-options > svg {
+    font-size: larger;
+}
+
+.selected {
+    border-bottom: 2px solid #2daafc;
+    color: #2daafc;
+    font-weight: 550;
+}
+
+#pop-up-input-area {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: center;
+    column-gap: 5%;
+    row-gap: 1rem;
+    width: 85%;
+    margin: auto;
+}
+
+.pop-up-input {
+    border-bottom: 2px solid #f0f0f0;
+}
+
+.destination-input {
+    grid-column: span 2;
+}
+
+.input-heading {
+    color: #b3b3b3;
+    font-size: small;
+    font-weight: 600;
+}
+
+.input-field {
+    margin-bottom: 5px;
+}
+
+.input-field svg {
+    font-size: larger;
+    margin-bottom: -4px;
+}
+
+#find-btn {
+    margin: 2.5rem auto 2rem auto;
+    width: 80%;
+    border: none;
+    border-radius: 10px;
+    background-color: #2daafc;
+    color: #ffffff;
+    font-size: medium;
+    padding: 12px;
+}
+
+#find-btn > svg {
+    font-size: x-large;
+    margin-bottom: -5px;
+}
+
+#right-section {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+    width: 78vw;
+    background-image: url("./Images/CSS-Excercise.webp");
+    color: #ffffff;
+    margin: 0px;
+}
+
+#main-heading {
+    display: flex;
+    margin: 0 auto 0 auto;
+    height: 5rem;
+    width: 70%;
+    justify-content: center;
+}
+
+.heading-item {
+    font-size: larger;
+    margin-top: 3rem;
+    margin-right: 2rem;
+    font-weight: 500;
+    border: none;
+    background-color: transparent;
+    color: #ffffff;
+}
+
+
+#sign-up-area {
+    display: flex;
+    margin-right: 0;
+    height: 5rem;
+    width: 30%;
+    justify-content: flex-end;
+}
+
+#lang-flag {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-top: -5px;
+    
+}
+
+.lang {
+    font-size: larger;
+    margin-left: -5px;
+    margin-right: -15px;
+}
+
+.sign-up-button {
+    background-color: #fcfcfc;
+    color: #1970c3;
+    border-radius: 5px;
+    font-weight: 600;
+    padding: 7px 5px 7px 5px;
+    width: auto;
+    overflow: visible;
+}
+
+#welcome-section {
+    align-self: center;
+    width: 100%;
+    margin: 0vw auto auto 20vw;
+    padding-top: 7rem;
+}
+
+#welcome-section h1 {
+    font-size: 6em;
+    text-transform: uppercase;
+    margin: 0%;
+}
+
+#welcome-section h2 {
+    font-size: 3.4em;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+#welcome-section h3 {
+    font-size: 1.9em;
+    font-weight: 500;
+    margin-top: 1rem;
+}
+
+#help {
+    margin: auto 3rem 2.5rem auto;
+    height: 2.5rem;
+    width: 2.5rem;
+    color: #f0f0f0;
+    text-align: center;
+    font-size: 3rem;
+    border-radius: 50%;
+}
