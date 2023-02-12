@@ -1,4 +1,4 @@
-#CSS used to recreate an existing design from Dribble
+# CSS used to recreate an existing design from Dribble
 
-##Original Design:
+## Original Design:
 https://dribbble.com/shots/17189629-Welcome-to-WanderLust-Travel-Tourism
